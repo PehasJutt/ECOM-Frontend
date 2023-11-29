@@ -1,0 +1,83 @@
+th {
+    background-color: #E9ECEF !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19.2px;
+    vertical-align: middle;
+
+}
+.headerIcon{
+    width: 16px;
+    height: 16px;
+}
+.table{
+    vertical-align: middle;
+}
+.icon{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+.TitleImage{
+    width: 44px;
+    height: 44px;
+}
+table tr td .TitleImage {
+    padding: 0;
+}
+
+.fontSmall{
+    font-size: 12.8px;
+}
+.fontMedium{
+    font-size: 16px;
+}
+.colorLightGrey{
+    color: var(--components-image-fill, #868E96);
+}
+.colorLGrey{
+    color: var(--components-forms-input-text, #495057);
+}
+.orderFontBold{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-01-body, #212529);
+}
+.orderFontThin{
+    font-size: 14px;
+    color: var(--global-02-secondary, #6C757D);
+
+}
+.orderStatus{
+    border-radius: 40px;
+    background: var(--global-03-success, #28A745);
+    text-align: center;
+    color: var(--global-09-white, #FFF);
+    padding: 0 10px;
+    margin-right: 20px;
+}
+
+.customTh {
+    color: var(--text-01-body, #212529) !important;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+
+}
+.rowID{
+    color: var(--components-image-fill, #868E96) !important;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    width: 20%;
+}
+.msg{
+    color: var(--global-04-danger, #DC3545) !important;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}

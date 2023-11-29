@@ -1,0 +1,18 @@
+.userMainSection{
+    background-color: #F8F9FA;
+    height: calc(98vh - 48px);
+}
+.DeniedMsg{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #002050;
+
+}
+.DeniedBtn{
+    width: fit-content;
+    margin: 1rem auto 1rem auto;
+}

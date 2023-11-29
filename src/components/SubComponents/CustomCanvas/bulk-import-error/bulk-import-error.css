@@ -1,0 +1,35 @@
+.Canvas{
+    background-color: white;
+    padding: 10px;
+}
+.backBtn{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.canvasHeader{
+    justify-content: flex-start;
+    padding-bottom: 0;
+}
+.canvasTitle{
+    
+    color: var(--Heading-Color, #002050);
+    margin-left: 1rem;
+}
+.canvasTitle h4{
+    margin-bottom: 0;
+}
+.SimpleCanvasBody{
+    padding-top: 10px;
+}
+hr{
+    border: 1px solid #979797;
+}
+.SimpleCanvasBodyWrapper{
+    height:calc(100vh - 180px);
+    overflow: scroll;
+}
+.SimpleCanvasBtn{
+    float: right;
+    margin-top: 20px;
+}

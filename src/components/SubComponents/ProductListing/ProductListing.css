@@ -1,0 +1,41 @@
+.ProdCardWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    justify-content: space-between;
+    border-radius: 4px;
+    border: 1px solid var(--components-card-border, #DFDFDF);
+    background: var(--global-09-white, #FFF);
+    padding: 16px;
+    margin-bottom: 32px;
+}
+.ProdCardImage{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+.ProdCardDesc{
+    color: #212529;
+    margin-bottom: 8px;
+}
+.ProdCardPriceHeading{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--components-image-fill, #868E96);
+}
+.ProdPrice{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+.ProdCardPrice{
+    color: var(--global-01-primary, #007BFF);
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.ProdCardDetailBtn{
+    float: right;
+}

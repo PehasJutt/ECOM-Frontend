@@ -1,0 +1,56 @@
+.NavWrapper{
+    display: flex;
+    margin: 0 5%;
+    margin-top: 1%;
+    height: 48px;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--global-09-white, #FFF);
+}
+h4{
+    font-weight: bold;
+}
+.nav_rt{
+    display: flex;
+    align-items: center;
+}
+.nav_rt .dropdown-toggle::after {
+    display: none; 
+}
+.nav_rt .dropdown_text {
+    color: var(--global-01-primary, #007BFF);
+}
+.nav_rt .dropdown-toggle.btn{
+    border: 0px;
+}
+.bag{
+    cursor: pointer;
+}
+.bell_icon{
+    width: 18px;
+    height: 18px;
+}
+.dropdown{
+    display: flex;
+    align-items: center;
+    margin-right: 0.75rem;
+}
+.arrow_down{
+    height: 16px;
+    width: 16px;
+}
+.avatar{
+    height: 31px;
+    width: 31px;
+    border-radius: 50%;
+    align-self: center;
+}
+.navLoginBtn{
+    cursor: pointer;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.notifications{
+    max-height: 40vh !important;
+    overflow: scroll !important;
+}

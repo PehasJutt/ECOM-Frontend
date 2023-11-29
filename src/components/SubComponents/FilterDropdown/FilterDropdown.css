@@ -1,0 +1,39 @@
+.dropBoundaryLine .btn{
+    border: 1px solid var(--components-forms-input-border, #CED4DA);
+    background: var(--global-09-white, #FFF);
+    color: var(--components-forms-input-text, #495057);
+    border-radius: 4px;
+}
+.dropBoundaryLine .btn:hover{
+    border: 1px solid var(--components-forms-input-border, #CED4DA);
+    color: var(--components-forms-input-text, #495057);
+    background: var(--global-09-white, #FFF);
+    border-radius: 4px;
+}
+.dropBoundaryLine .btn:focus{
+    border: 1px solid var(--components-forms-input-border, #CED4DA);
+    border-radius: 4px;
+}
+.dropBoundaryLine .btn .show{
+    border: 1px solid var(--components-forms-input-border, #CED4DA);
+    color: var(--components-forms-input-text, #495057);
+    background: var(--global-09-white, #FFF);
+    border-radius: 4px;
+}
+.dropBoundaryLine .dropdown-divider{
+    border-color: var(--components-forms-input-text, #CED4DA);
+    margin: 0;
+    border-top: 0;
+}
+.dropBoundaryLine .dropdown-menu .show{ 
+    padding: 0;
+    width: inherit;
+}
+.dropBoundaryLine .dropdown-menu { 
+    padding: 0;
+    --bs-dropdown-min-width: unset;
+}
+.dropBoundaryLine .dropdown-item{
+    color: var(--components-forms-input-text, #495057);
+
+}

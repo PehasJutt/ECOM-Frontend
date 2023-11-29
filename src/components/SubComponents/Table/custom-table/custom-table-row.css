@@ -1,0 +1,13 @@
+.icon{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+.TitleImage{
+    width: 44px;
+    height: 44px;
+    border-radius: 4px;
+}
+table tr td .TitleImage {
+    padding: 0;
+}

@@ -1,0 +1,19 @@
+.AddressFieldWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.AddressWrapper{
+    padding: 16px 22px;
+    border-radius: 4px;
+    display: flex; 
+    justify-content: space-between;
+    border: 1px solid var(--components-bradcrumb-fill, #E9ECEF);
+    background: var(--global-09-white, #FFF);
+    color: var(--text-01-body, #212529);
+    font-size: 14px;
+}
+.addressChangeBtn{
+    height: fit-content;
+    margin-left: 1rem;
+}

@@ -1,0 +1,16 @@
+.DashSummaryHeader{
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+.SummaryCartIcon{
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}
+.DashboardSummary{
+    display: flex;
+    justify-content: space-between;
+    color: var(--components-forms-input-text, #495057);
+    margin-top: 16px;
+}

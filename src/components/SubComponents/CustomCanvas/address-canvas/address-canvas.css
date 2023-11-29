@@ -1,0 +1,7 @@
+.AddressFomGroup {
+    display: flex;
+    justify-content: space-between;
+}
+.AddressSection {
+    flex-basis: 48%;
+}

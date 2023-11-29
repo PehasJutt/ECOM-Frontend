@@ -1,0 +1,44 @@
+.FormContainer {
+    width: 40vw;
+    background: var(--global-09-white, #FFF);
+    flex-shrink: 0;
+    border-radius: 4px;
+}
+.centered-container {
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    height: 100vh; /* 100% of viewport height for vertical centering */
+    background: var(--global-07-light, #F8F9FA);
+  }
+  .FormHeading {
+    color: var(--global-01-primary, #007BFF);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+  }
+.LoginAlertContainer{
+  height: calc(24px + 48px + 1em);
+}
+  .LoginAlert {
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 12px 20px;
+    border-radius: 4px;
+    border: 1px solid #F5C6CB;
+    background: #F8D7DA;
+    align-items: center;
+    gap: 30px;
+    /* margin-bottom: 48px; */
+  }
+  .btn_close {
+    width: 16px;
+    height: 16px;
+    filter: drop-shadow(0px 1px 0px #FFF);
+  }
+  .LoginSpinner {
+    margin-left:10px;
+  }

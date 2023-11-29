@@ -1,0 +1,33 @@
+.adminOrderSummaryWrapper{
+    display: flex;
+    background-color: #F8F9FA;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+    padding: 12px 28px;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.adminOrderSummary_title{
+    font-size: 15px;
+    font-weight: 700;
+}
+.adminOrderSummary_stat{
+    font-size: 14px;
+    margin-top: 4px;;
+}
+.adminOrderDeliveryDetails{
+    background-color: #F8F9FA;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+    padding: 12px 28px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.markDeliveryBtn{
+    height: fit-content;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 14px;
+}

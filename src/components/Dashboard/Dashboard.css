@@ -1,0 +1,67 @@
+.dashboard_heading{
+    color: var(--Heading-Color, #002050);
+    margin-top: 16px;
+}
+.DashboardSummaryCards{
+    display: flex;
+    justify-content: space-between;
+}
+.DashboardSummaryCard{
+    font-size: 14px;
+    flex-basis: 31.5%;
+    padding: 16px;
+    border: 1px solid var(--components-bradcrumb-fill, #E9ECEF);
+    background: var(--global-09-white, #FFF);
+}
+.DashboardChartWrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+}
+.Chart{
+    border: 1px solid var(--components-bradcrumb-fill, #E9ECEF);
+    background: var(--global-09-white, #FFF);
+}
+.PieChart{
+    flex-basis: 31.5%;
+    overflow: hidden;
+}  
+.LineChart{
+    flex-basis: 65.75%;
+}
+.ChartHeader{
+    color: var(--Heading-Color, #002050);
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.DashboardTableWrapper{
+    margin-top: 32px;
+}
+.DashboardTableHeading{
+    color: var(--Heading-Color, #002050);
+    margin-bottom: 16px;
+}
+.DashHelper_DivWrapper{
+    display: flex;
+}
+.DashHelper_DataWrapper{
+    margin-left: 12px;
+    align-self: center;
+}
+/* .DashHelper_LowerData{
+    display: flex;
+}
+.DashHelper_LowerLeft{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.DashHelper_LowerRight{
+    display: flex;
+}
+.DashHelper_ColorDot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+} */

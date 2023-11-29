@@ -1,0 +1,74 @@
+.ImportProgressWrapper{
+    border: 1px solid var(--components-image-border, #DEE2E6);
+    background: var(--global-09-white, #FFF);
+    margin-top: 30px;
+    padding: 15px;
+}
+.progHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.progTitle{
+    color: var(--Heading-Color, #002050);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+}
+.ProgHeader_rt{
+    margin-top: -6px;
+    margin-bottom: 6px;
+}
+.progIcon{
+    width: 18px;
+    height: 18px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.progStats{
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+.statTitle{
+    color: var(--components-forms-input-text, #495057);
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+.stat{
+    color: var(--components-forms-input-text, #495057);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; 
+}
+.progBarWapper{
+    display: flex;
+    align-items: center;
+}
+.progBar{
+    display: flex;
+    margin-left: 34px;
+    height: 4px;
+    width: 18vw;
+    border-radius: 2px;
+}
+.progSucc{
+    background-color: #19C240;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.progErr{
+    background-color: #D9081C;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.totalRad{
+    border-radius: 2px;;
+}
+.progBtn{
+    margin-top: 4px;
+}

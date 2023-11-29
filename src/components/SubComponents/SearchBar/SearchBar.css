@@ -1,0 +1,12 @@
+.searchBarWrapper{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.SearchHeading{
+    font-size: 14px;
+    font-weight: 700;
+}
+.small-placeholder {
+    font-size: 14px;
+}

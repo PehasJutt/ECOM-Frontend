@@ -1,0 +1,23 @@
+
+.orderDateFont{
+    font-size: 12.8px;
+    color: var(--components-image-fill, #868E96);
+}
+.orderFontBold{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-01-body, #212529);
+}
+.orderFontThin{
+    font-size: 14px;
+    color: var(--global-02-secondary, #6C757D);
+
+}
+.orderStatus{
+    border-radius: 40px;
+    background: var(--global-03-success, #28A745);
+    text-align: center;
+    color: var(--global-09-white, #FFF);
+    padding: 0 10px;
+    /* margin-right: 10px; */
+}

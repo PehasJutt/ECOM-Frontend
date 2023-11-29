@@ -1,0 +1,52 @@
+.productsHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+.header_rt{
+    display: flex;
+}
+.importProds{
+    margin: 0 1rem;
+}
+.Product_Table_Warpper{
+    overflow: scroll;
+    height: calc(100vh - 145px);
+    /* min-height: calc(100vh - 145px) */
+
+}
+.heading{
+    color: var(--global-01-primary, #007BFF);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.8px; /* 120% */
+}
+.Product_Table_Warpper table tr td:nth-child(2) {
+    width: 27vw;
+}
+.spinner{
+    width: 5rem;
+    height: 5rem;
+    margin: 30vh 30vw;
+}
+.pages{
+    float: right;
+    display: flex;
+    border: 1px solid #DEE2E6;
+    border-radius: 0.25rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+
+}
+.pagebtn{
+    border: 0.5px solid #DEE2E6;
+    border-top: 0;
+    border-bottom: 0;
+    border-radius: unset;
+    color: #007BFF;
+    padding: 0.25rem 0.75rem;
+}
